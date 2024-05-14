@@ -1,0 +1,280 @@
+@media screen and (max-width: 600px) {
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    /* Navbar Part Start */
+    .logo_col {
+        width: 50%;
+        gap: 8px;
+    }
+    .logo_col p {  
+        font-size: 20px;
+    }
+    .menu_col {
+        width: 50%;
+        
+    }
+    .menu_col ul li {
+        display: none;
+    }
+    .menu_col {
+        text-align: end;
+    }
+    .menu_col .menu_bar {
+        display: inline-block;
+        font-size: 20px;
+        line-height: 80px;
+        color: #131313;
+    }
+    /* Navbar Part End */
+
+    /* Banner Part Start */
+    .banner_main h1 {
+        font-size: 22px;
+    }
+    .banner_main p {
+        font-size: 14px;
+        line-height: 21px;
+        padding: 0px 85px 32px 85px;
+    }
+    .banner_function {
+        flex-direction: column;
+        width: 90%;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.30);
+    }
+    .banner_function input {
+        width: 90%;
+    }
+    .banner_function select { 
+        width: 90%;
+    }
+    .banner_function button {
+        width: 90%;
+    }
+    /* Banner Part End */
+
+    /* Popular Part Start */
+    #popular_part {
+        padding: 24px 0px;
+    }
+    .popular_row {
+        flex-direction: column;
+    }
+    .popular_description {
+        width: 100%;
+    }
+    .popular_img {
+        width: 100%;
+    }
+    .popular_description h2 {
+        font-size: 20px;
+    }
+    .popular_description p {
+        font-size: 14px;
+        line-height: 24px;
+        padding: 16px 0px 16px 0px;
+    }
+    .popular_description button {
+        margin-bottom: 24px;
+    }
+    .popular_description ul li {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    .popular_description .popular_lastpara {
+        color: #5A5A5D;
+        padding: 16px 0px 24px 0px;
+    }
+    /* Popular Part End */
+
+    /* Destination Part Start */
+    .common_heading h3 {
+        font-size: 20px;
+        padding-bottom: 16px;
+    }
+    .common_heading p {
+        font-size: 14px;
+        line-height: 24px;
+        padding: 0px 82px 16px 82px;
+    }
+    .place {
+        flex-direction: column;
+    }
+    .place_list img {
+        width: 100%;
+    }
+    .overlay p {
+        font-size: 20px;
+    }
+    /* Destination Part End */
+
+    /* My Choose Me part Start */
+    .choose_main {
+        flex-direction: column;
+    }
+    .box {
+        width: 100%;
+    }
+    /* My Choose Me part End */
+
+    /* Satisfied Clients Part Start */
+    #happy_clients {
+        padding-bottom: 24px;
+    }
+    .happyClients {
+        width:95%;
+        margin: 0 auto;
+    }
+    .happy_client_main {
+        gap: 16px;
+        margin-bottom: 16px;
+        flex-direction: column;
+    }
+    .happy_client_main_2 {
+        gap: 16px;
+    }
+    /* Satisfied Clients Part End */
+
+    /* Discount Part Start */
+    #discount {
+        padding-bottom: 24px;
+    }
+    .discount_part {
+        width: 95%;
+        padding: 16px;
+        margin-top: 180px;
+    }
+    .content_left {
+        width: 95%;
+        margin: 0 auto;
+        padding: 16px;
+        margin-top: 180px;
+    }
+    .discount_part h4 {
+        font-size: 20px;
+    }
+    .content_left h4 {
+        font-size: 20px;
+    }
+    .discount_part p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .content_left p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .discount_part h5 {
+        font-size: 16px;
+    }
+    .content_left h5 {
+        font-size: 16px;
+    }
+    .discount_part button {
+        font-size: 18px;
+        padding: 8px 20px;
+    }
+    .content_left button {
+        font-size: 18px;
+        padding: 8px 20px;
+    }
+    /* Discount Part End */
+
+    /* Perfect Place Part Start */
+    #perfect_place {
+        padding-bottom: 24px;
+    }
+    .perfect_place_part_main {
+        flex-direction: column;
+    }
+    .perfect_place_description {
+        width: 95%;
+    }
+    .perfect_place_description h3 {
+    font-size: 20px;
+    line-height: 30px;
+    }
+    .perfect_place_description p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .perfect_place_description button {
+        margin-bottom: 24px;
+    }
+    .perfect_place_video {
+        width: 95%;
+        margin: 0 auto;
+    }
+    .perfect_place_video iframe {
+        width: 100%;
+    }
+    /* Perfect Place Part End */
+
+    /* News Letter Part Start */
+    #newsLetter {
+        padding-bottom: 24px;
+    }
+    .newsLetter_gap {
+        flex-direction: column;
+    }
+    .newsLetter_form {
+        width: 95%;
+        margin: 0 auto;
+    }
+    .newsLetter_picture {
+        width: 95%;
+        margin: 0 auto;
+    }
+    .tripDotcom {
+        position: absolute;
+        right: 5px;
+        bottom: 35px;
+        width: 40%;
+        text-align: center;
+        padding: 16px 0px;
+        border-radius: 16px;
+        background-color: #FF5400;
+        transform: rotate(-20deg);
+    }
+    .tripDotcom p {
+
+        font-size: 16px;
+    }
+    .tripDotcom h4 {
+        font-size: 22px;
+    }
+    /* News Letter Part End */
+
+    /* Footer Part Start */
+    #footer {
+        padding: 32px 0px;
+        background: rgba(19, 19, 24, 0.05);
+    }
+    .footer_logo h5 {
+        font-size: 21px;
+        font-weight: 800;
+        color:#131318;
+    }
+    .footer_content p {
+        font-size: 14px;
+        line-height: 24px;
+        padding: 0px 70px 16px 70px;
+    }
+    .footer_content a i {
+        font-size: 20px;
+        margin: 0px 6px;
+        padding-bottom: 24px;
+    }
+    .copyright {
+        text-align: center;
+    }
+    .copyright h6 {
+        font-size: 14px;
+        line-height: 48px;
+    }
+    /* Footer Part End */
+}
